@@ -1,0 +1,17 @@
+[Unit]
+Description = Beacon service for environmental and heart rate data
+After = network.target
+
+[Service]
+WorkingDirectory = /home/pi/morpheus/
+ExecStart = /usr/bin/python3.5m /home/pi/morpheus/main.py
+
+Restart=always
+RestartSec=5
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=autodeploy
+
+[Install]
+WantedBy = multi-user.target
