@@ -12,7 +12,7 @@ import string
 URL = 'https://api.hack-the-necstcamp.necst.it/'
 URL_LOG = URL + 'sleep/send_room_data'
 IFTTT_URL = 'https://maker.ifttt.com/trigger/'
-IFTTT_KEY = '/with/key/vcQDb_1luYYCNcn1ek9Sd'
+IFTTT_KEY = '/with/key/PRIVATE_KEY'
 
 REMOTE_HOST = 'localhost'
 PORT = 50002
