@@ -27,7 +27,7 @@ import socket
 
 URL = 'https://api.hack-the-necstcamp.necst.it/'
 IFTTT_URL = 'https://maker.ifttt.com/trigger/'
-IFTTT_KEY = '/with/key/vcQDb_1luYYCNcn1ek9Sd'
+IFTTT_KEY = '/with/key/PRIVATE_KEY'
 
 REMOTE_HOST = 'vechus-HP-Kubuntu.local'
 PORT = 50002
